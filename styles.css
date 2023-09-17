@@ -1,0 +1,50 @@
+*
+{
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(to right blue,black,green);
+    overflow: hidden;
+}
+h2{
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px,3px,5px ,red;
+    margin-top: 150px;
+    margin-bottom: 50px;;
+}
+.container
+{
+    background: linear-gradient(to bottom,rgb(93, 222, 93),rgb(197, 197, 110),rgb(207, 133, 133));
+    width:700px;
+    margin: auto;
+    height:150px;
+}
+.clock
+{
+    margin:60px;
+    width:400px;
+    font-weight: 600px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+span
+{
+    font-size: xx-large;
+    display:flex;
+    align-content: center;
+
+}
+.clock .text{
+    font-weight: 5000;
+    text-shadow: 2px 3px 4px red;
+    text-transform: uppercase;
+    margin-right:10px;
+
+}
